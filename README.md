@@ -61,4 +61,12 @@ Step 3: Flat Files which are output of ADF are used byAzure Synapse Analytics to
 
 Step 4: I rely power BI desktop to data released by Azure Synapse analytics to build some visualization to know more about films, actors and gendre…., also I implement Azure Active Directory to ensure authentication from Azure Synapse Analytics to Power BI.
 
+## Infrastructure as Code IaC
+You find above an attached .tf file in this project that includes Terraform script for building resources of the architecture
+## Data Ingestion and Processing:
+### I. Data ingestion workflow
+
+
+
+
 
