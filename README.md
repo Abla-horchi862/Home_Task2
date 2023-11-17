@@ -86,6 +86,8 @@ To transit data to ADF we follow these steps:
   ![3](https://github.com/Abla-horchi862/Home_Task2/assets/61522624/d59bffdb-5696-44b4-81bf-898c18d0efc1)
 
 - This cell includes running KMeans model for films' gendre prediction.
+- ![4](https://github.com/Abla-horchi862/Home_Task2/assets/61522624/ad17bd5b-a0ea-4fa2-a2d9-89b03f7ad21b)
+
 #### these are simple sql queries that i create in Azure Synapse Analytics 
 1. Sql query to calculate number total of created films per year and country
 SELECT Count(filmID) as Total_films  from filmTV_movie
