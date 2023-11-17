@@ -52,3 +52,13 @@ To achieve this pipeline in Azure as Cloud provider, I implement an architecture
 ## Data Platform Design
 ![azure architecture](https://github.com/Abla-horchi862/Home_Task2/assets/61522624/12f0e65e-178b-4f94-8bd5-d54df5e691bf)
 Figure 3: Azure Architecture
+
+### How this architecture works
+Step 1: I store Relational table in SQL Server using SSMS tool and I ensure that firewall is active to secure data.
+Step 2: Data is extracted and transited via IPSec VPN to ADF and Azure DataLake. In ADF I create pipeline to copy data from sql server to flat file (.csv file) also in ADF I adjusted source and destination, integration runtime to allow communication between azure VM and ADF also I adjusted linked service between SQL server and ADF, with these steps I can ensure well working of ADF pipeline. Also data is stored in DataLake to ensure fault tolerance.
+Step 3: Flat Files which are output of ADF are used byAzure Synapse Analytics to apply transformation for data cleaning , normalization or optimization, Also data stored in Azure DataLake is used by Azure dataBricks as training data so use databricks notebook and python as programming language to developing a machine learning model to predict gendre of a film.
+#### PS: For the prediction model I choose KMeans model.
+
+Step 4: I rely power BI desktop to data released by Azure Synapse analytics to build some visualization to know more about films, actors and gendre…., also I implement Azure Active Directory to ensure authentication from Azure Synapse Analytics to Power BI.
+
+
