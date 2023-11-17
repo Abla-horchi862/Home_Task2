@@ -40,4 +40,13 @@ In this task I’m going to tackle Big Data Pipeline which composed on four phas
 
 Figure 2: Big Data Pipeline
 
+To achieve this pipeline in Azure as Cloud provider, I implement an architecture in which I've outlined leverages a mix of on-premise and Azure services to address various aspects of data storage, security, communication, data processing, and visualization. So I choose these components:
+- Starting with on-premise I choose SQL Server for data storage that provides a familiar and robust relational database system. I add a firewall to enhance security, controlling access to the database and protecting sensitive information from unauthorized access.
+- I include an IPSec VPN for communication between on-premise and Azure this ensures a secure and private connection. This is crucial for maintaining data integrity and confidentiality during the transfer of information between your local infrastructure and Azure services. The VPN establishes a reliable and encrypted connection, mitigating potential security risks associated with data in transit.
+- For data ingestion I choose Azure Data Factory (ADF) and Azure Data Lake. ADF simplifies the process of orchestrating and automating data workflows, while Azure Data Lake provides scalable and secure storage for big data analytics. These services work seamlessly together, offering a robust solution for efficiently ingesting, preparing, and storing data at scale.
+- For data processing I choose Azure Synapse Analytics (formerly SQL Data Warehouse) and Azure Databricks. Synapse Analytics provides a powerful analytics platform with on-demand scalability, allowing  to analyze large datasets efficiently. Databricks, on the other hand, is an ideal choice for big data processing and advanced analytics using machine learning models.
+- I add a Virtual Network (VNet) that enhances the overall security of architecture by creating an isolated and private network within Azure. This ensures that resources are securely connected, and access can be tightly controlled, providing an additional layer of protection for data.
+- I Integrate Power BI for visualization brings the data to life. Power BI's intuitive interface and powerful visualization capabilities allow for insightful reporting and analysis.
+- I implement Azure Active Directory between Azure Synapse Analytics and Power BI ensures secure authentication and access control, aligning with best practices for identity management in the cloud.
+
 
