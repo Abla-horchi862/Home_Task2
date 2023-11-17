@@ -83,6 +83,8 @@ To transit data to ADF we follow these steps:
   ![2](https://github.com/Abla-horchi862/Home_Task2/assets/61522624/9e57d1aa-1b3e-434e-bd7f-229007fb9789)
 
 - This cell includes elbow method that calculates number of clusters for ML model.
+  ![3](https://github.com/Abla-horchi862/Home_Task2/assets/61522624/d59bffdb-5696-44b4-81bf-898c18d0efc1)
+
 - This cell includes running KMeans model for films' gendre prediction.
 #### these are simple sql queries that i create in Azure Synapse Analytics 
 1. Sql query to calculate number total of created films per year and country
