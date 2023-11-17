@@ -36,5 +36,8 @@ In this task I’m going to tackle Big Data Pipeline which composed on four phas
 - Data Visualization: using visualization tool to see transformed data and create reports.
 
 
+![Data pipeline](https://github.com/Abla-horchi862/Home_Task2/assets/61522624/a616dd47-02fc-4dc9-b529-4ef46d55f622)
+
+Figure 2: Big Data Pipeline
 
 
