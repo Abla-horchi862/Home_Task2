@@ -50,3 +50,5 @@ To achieve this pipeline in Azure as Cloud provider, I implement an architecture
 - I implement Azure Active Directory between Azure Synapse Analytics and Power BI ensures secure authentication and access control, aligning with best practices for identity management in the cloud.
 
 ## Data Platform Design
+![azure architecture](https://github.com/Abla-horchi862/Home_Task2/assets/61522624/12f0e65e-178b-4f94-8bd5-d54df5e691bf)
+Figure 3: Azure Architecture
