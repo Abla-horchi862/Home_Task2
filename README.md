@@ -5,7 +5,7 @@ Data are stored in rows and columns, each row of the table has same columns.
 Data that I choose is related to films specifications.
 
 ![datasource](https://github.com/Abla-horchi862/Home_Task2/assets/61522624/f98af0d0-5a86-4de7-91ba-ffdeb35ed92f)
-            This a screenshot of source Data
+           Figure1: screenshot of source Data
 
 As showed in the photo columns types are various (integer, string, float…)
 Columns of each film are :
