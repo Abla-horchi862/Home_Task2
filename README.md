@@ -78,3 +78,21 @@ To transit data to ADF we follow these steps:
 ### II. Data processing
 #### These are some screenshots from Azure Databricks Notebook
 - This cell is about importing necessary labraries and opening location where data file is stored.
+- This cell is about reading and illustrating data.
+- This cell includes elbow method that calculates number of clusters for ML model.
+- This cell includes running KMeans model for films' gendre prediction.
+#### these are simple sql queries that i create in Azure Synapse Analytics 
+1. Sql query to calculate number total of created films per year and country
+SELECT Count(filmID) as Total_films  from filmTV_movie
+GROUP BY
+    Country, year;
+
+2. SQL query to remove redundancy in table
+SELECT DISTINCT *
+FROMfilmTV_movie;
+
+3. SQL query to add indexes to table column filmID to optimize the query and facilitate data retrieval.
+-- Clustered index
+CREATE CLUSTERED INDEX order
+ON filmTV_movie (filmID);
+
