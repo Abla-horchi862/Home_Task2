@@ -80,6 +80,8 @@ To transit data to ADF we follow these steps:
 - This cell is about importing necessary labraries and opening location where data file is stored.
   ![1](https://github.com/Abla-horchi862/Home_Task2/assets/61522624/a9ad32f0-0fe8-4234-ab05-add3df9bae98)
 - This cell is about reading and illustrating data.
+  ![2](https://github.com/Abla-horchi862/Home_Task2/assets/61522624/9e57d1aa-1b3e-434e-bd7f-229007fb9789)
+
 - This cell includes elbow method that calculates number of clusters for ML model.
 - This cell includes running KMeans model for films' gendre prediction.
 #### these are simple sql queries that i create in Azure Synapse Analytics 
