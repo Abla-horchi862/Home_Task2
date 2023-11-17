@@ -66,7 +66,12 @@ You find above an attached .tf file in this project that includes Terraform scri
 ## Data Ingestion and Processing:
 ### I. Data ingestion workflow
 
+![data ingestion workflow](https://github.com/Abla-horchi862/Home_Task2/assets/61522624/cb0d53c7-14f4-4e4f-8410-c48cc8b68281)
+Figure 4: Big Data ingestion workFlow
 
-
-
+Data is extracted and transited via IPSec VPN to ADF.
+To transit data to ADF we follow these steps:
+1. Create integration runtime in ADF to allow communication between local device and ADF
+2. Adjust in ADF, source dataset (Table in sql server) and destination dataset(flat file) Dataset by creating linked service between SQL server and ADF
+3. Create ADF pipeline to copy data from sql server to flat file using copy data function.
 
