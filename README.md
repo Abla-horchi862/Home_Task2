@@ -78,6 +78,7 @@ To transit data to ADF we follow these steps:
 ### II. Data processing
 #### These are some screenshots from Azure Databricks Notebook
 - This cell is about importing necessary labraries and opening location where data file is stored.
+  ![1](https://github.com/Abla-horchi862/Home_Task2/assets/61522624/a9ad32f0-0fe8-4234-ab05-add3df9bae98)
 - This cell is about reading and illustrating data.
 - This cell includes elbow method that calculates number of clusters for ML model.
 - This cell includes running KMeans model for films' gendre prediction.
