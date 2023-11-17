@@ -49,4 +49,4 @@ To achieve this pipeline in Azure as Cloud provider, I implement an architecture
 - I Integrate Power BI for visualization brings the data to life. Power BI's intuitive interface and powerful visualization capabilities allow for insightful reporting and analysis.
 - I implement Azure Active Directory between Azure Synapse Analytics and Power BI ensures secure authentication and access control, aligning with best practices for identity management in the cloud.
 
-
+## Data Platform Design
