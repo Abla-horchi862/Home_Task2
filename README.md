@@ -75,3 +75,6 @@ To transit data to ADF we follow these steps:
 2. Adjust in ADF, source dataset (Table in sql server) and destination dataset(flat file) Dataset by creating linked service between SQL server and ADF
 3. Create ADF pipeline to copy data from sql server to flat file using copy data function.
 
+### II. Data processing
+#### These are some screenshots from Azure Databricks Notebook
+- This cell is about importing necessary labraries and opening location where data file is stored.
