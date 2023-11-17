@@ -29,4 +29,12 @@ Columns of each film are :
 #### tension: movie tension score given by filmtv.
 #### erotism: movie erotism score given by filmtv.
 
+In this task I’m going to tackle Big Data Pipeline which composed on four phases:
+- Data Storage that could be on cloud or on promise.
+- Data ingestion : extracting  data from multiple sources and store it in one place ( example Datawarehouse or dataLake).
+- Data Processing: Data transforming and manipulation to make it more miningful.
+- Data Visualization: using visualization tool to see transformed data and create reports.
+
+
+
 
